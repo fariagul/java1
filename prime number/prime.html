@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var mod;
+    var a=prompt("enter number you want to check")
+  if(a>1){
+    for (var index = 2; index <a; index++) {
+        mod=a%index;
+        if(mod==0){
+            document.write("NOT PRIME NUMBER");
+            break;
+        }
+        else{
+            document.write("THIS IS PRIME NUMBER");
+        }
+        
+    }
+  }
+   </script> 
+</body>
+</html>
